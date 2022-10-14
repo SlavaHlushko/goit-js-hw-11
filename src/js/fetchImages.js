@@ -3,7 +3,7 @@ import axios from 'axios';
 import Notiflix from 'notiflix';
 
 const baseURL = 'https://pixabay.com/api/?key=';
-const API_KEY = '29451964-958278d8f10d2abadadf36c5e';
+const API_KEY = '30601253-2cee3764fd617cb55992ab0f3';
 const searchOption = 'image_type=photo&orientation=horizontal&safesearch=true';
 
 export async function fetchImages(searchQuery, HITS_PER_PAGE, currentPage) {
